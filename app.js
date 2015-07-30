@@ -1,7 +1,7 @@
 var myModule = angular.module('myModule', []);
 
 myModule.controller('myCtrl', function($scope, $http){
-    $scope.test = 'name';
+
     $scope.friends = [
       {
         "name": "Preston McNeil",

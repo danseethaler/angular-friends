@@ -4,6 +4,10 @@ body, html, h1, h2, h3, h4, h5, h6, ul{
 	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
 }
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 h1{
 	text-align: center;
 	padding: 20px 0px;
